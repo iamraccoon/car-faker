@@ -1,0 +1,21 @@
+{
+  "name": "iamraccoon/car-faker",
+  "type": "library",
+  "description": "Car-Faker is a PHP library that generates fake-car data for you.",
+  "keywords": ["faker", "car-faker", "fixtures", "data"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "I am raccoon"
+    }
+  ],
+  "minimum-stability": "RC",
+  "require": {
+    "fzaninotto/faker": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "carfaker\\": "src/carfaker/"
+    }
+  }
+}
