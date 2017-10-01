@@ -2,16 +2,15 @@
 
 namespace carfaker\provider;
 
+use carfaker\traits\RepositoryTrait;
+
 /**
  * Class Car
  * @package carfaker\provider
  */
 class Car extends Base
 {
-    /**
-     * @var array
-     */
-    public static $brandModelNames = array();
+    use RepositoryTrait;
 
     /**
      * @example 'Mercedes s500'
