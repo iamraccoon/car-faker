@@ -10,6 +10,10 @@ Faker requires PHP >= 5.3.3.
 ```sh
 composer require iamraccoon/car-faker
 ```
+or add 
+```sh
+"iamraccoon/car-faker": "^1.0"
+```
 
 ## Basic Usage
 
@@ -20,8 +24,8 @@ $faker = (new \Faker\Factory())::create();
 $faker->addProvider(new \carfaker\provider\Car($faker));
 
 // generate automobile manufacturer and model of car
-echo $faker->car;
+echo $faker->car;     //Mercedes-Benz CLC 220
 
 // generate only automobile manufacturer
-echo $faker->brand;
+echo $faker->brand;   //Lotus
 ```
